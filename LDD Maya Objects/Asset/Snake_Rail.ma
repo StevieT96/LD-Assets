@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Snake_Rail.ma
-//Last modified: Fri, Apr 28, 2023 12:05:18 PM
+//Last modified: Fri, Apr 28, 2023 02:22:28 PM
 //Codeset: 1252
 requires maya "2023";
 requires "stereoCamera" "10.0";
@@ -11,18 +11,18 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202208031415-1dee56799d";
 fileInfo "osv" "Windows 10 Education v2009 (Build: 19045)";
-fileInfo "UUID" "0188D98C-4986-9CFA-6CF0-FDA3B4BAD367";
+fileInfo "UUID" "B1BEEE13-4407-DE52-9575-739F8A846A2F";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "A1A132EC-4E93-4711-F690-D288663D2311";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3180.8883848575101 1195.1489867068979 -1025.768111016692 ;
-	setAttr ".r" -type "double3" -14.738351668610523 3710.1999999979485 0 ;
+	setAttr ".t" -type "double3" 2872.507102341468 1198.880309667556 -136.92091448438413 ;
+	setAttr ".r" -type "double3" -14.138351674114192 4057.3999999996049 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C166237F-470D-355D-5A91-26AD231442DF";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 3312.7341657027655;
+	setAttr ".coi" 2680.2891707577878;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -25929,7 +25929,7 @@ createNode mesh -n "HumanBody:humanBodyShape" -p "HumanBody:humanBody";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pHelix4";
 	rename -uid "64700422-4795-890E-B909-00BEFD81C822";
-	setAttr ".t" -type "double3" 0 647.01113936200989 0 ;
+	setAttr ".t" -type "double3" -5.1100915982806328 647.01113936200966 225.58510848424703 ;
 createNode mesh -n "pHelixShape4" -p "pHelix4";
 	rename -uid "55266AE6-4264-F41D-A9C0-BFB7E74C11D1";
 	setAttr -k off ".v";
