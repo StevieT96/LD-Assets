@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Vent.ma
-//Last modified: Fri, Apr 28, 2023 02:47:54 PM
+//Last modified: Fri, Apr 28, 2023 04:26:39 PM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "polyBoolean" "polyBoolean" "1.1";
@@ -12,13 +12,13 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202208031415-1dee56799d";
 fileInfo "osv" "Windows 10 Education v2009 (Build: 19045)";
-fileInfo "UUID" "290C00E9-4F1D-E27B-0667-84A659647516";
+fileInfo "UUID" "28BD0616-4434-892B-B681-49BF24625EC9";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "BA56DE55-46DC-542B-1937-089F77BED646";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2302.410782719413 1370.3618306617934 -279.10903406245961 ;
-	setAttr ".r" -type "double3" -24.599999999999081 450.39999999975998 4.5799987413074647e-13 ;
+	setAttr ".t" -type "double3" 2443.4101585089056 -304.76195450284058 -58.948856233862244 ;
+	setAttr ".r" -type "double3" 14.399999999947767 445.19999999975897 -2.850714019366842e-14 ;
 	setAttr ".rpt" -type "double3" 2.7308312141199492e-14 -4.5307783908991332e-14 5.412430203239471e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FDBBF2A2-4462-8BE7-D6F6-03B2FAE034DF";
