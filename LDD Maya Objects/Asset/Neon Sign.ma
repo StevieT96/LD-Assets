@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Neon Sign.ma
-//Last modified: Wed, May 03, 2023 04:02:34 PM
+//Last modified: Wed, May 03, 2023 04:33:38 PM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "type" -nodeType "shellDeformer" -nodeType "vectorAdjust" -nodeType "typeExtrude"
@@ -15,18 +15,18 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202208031415-1dee56799d";
 fileInfo "osv" "Windows 10 Education v2009 (Build: 19045)";
-fileInfo "UUID" "051D0382-47CA-E321-A905-989712F91767";
+fileInfo "UUID" "92085FE9-40DE-DE88-BDFA-B3ADB1E7EE81";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "CDEA9C10-45B8-B6FD-57F8-14B774919253";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 953.70354075865737 955.69603913368815 587.83037832926959 ;
-	setAttr ".r" -type "double3" -24.338352729665132 50.600000000001828 0 ;
+	setAttr ".t" -type "double3" 568.33220369513992 673.0087381896725 806.19785778252719 ;
+	setAttr ".r" -type "double3" -11.13835272966578 33.399999999999011 -9.5243541410968684e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "02CDB8CD-4D13-6960-FD8C-6DAFCBAA4B04";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 1327.879990757825;
+	setAttr ".coi" 1137.900746977419;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -25978,6 +25978,7 @@ createNode mesh -n "pPlaneShape1" -p "pPlane1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.75 1 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
